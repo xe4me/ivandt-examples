@@ -12,6 +12,7 @@ This repository contains working examples for:
 
 - **Next.js** - Full-stack React framework example
 - **Nuxt** - Full-stack Vue framework example
+- **Angular** - Full-stack Angular framework example
 
 Each example demonstrates:
 - Creating secure import sessions via API endpoints
@@ -26,6 +27,7 @@ Each example has its own README with detailed setup instructions. Navigate to th
 
 - [Next.js Example](./nextjs/README.md)
 - [Nuxt Example](./nuxt/README.md)
+- [Angular Example](./angular/README.md)
 
 ## Key Features Demonstrated
 
