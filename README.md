@@ -44,4 +44,4 @@ Each example has its own README with detailed setup instructions. Navigate to th
 
 ## License
 
-MIT
+Proprietary - See LICENSE file

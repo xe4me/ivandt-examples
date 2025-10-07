@@ -17,7 +17,7 @@ You can obtain these keys from your [Ivandt environment settings](https://ivandt
 
 ### 2. Add Origin to Ivandt Environment
 
-Add `https://localhost.myapp.com:3000` as an allowed origin in your [Ivandt environment configuration](https://ivandt.com/docs/environments).
+Add `https://localhost.ivandt.com:3000` ( change to your own app) as an allowed origin in your [Ivandt environment configuration](https://ivandt.com/docs/environments).
 
 ### 3. Install Dependencies
 

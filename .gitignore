@@ -38,7 +38,9 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-**/.env.local
+**/.env*
+**/.vscode*
+
 **/.env*.local
 
 # typescript

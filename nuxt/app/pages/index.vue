@@ -5,9 +5,7 @@ import { IvtImporter } from '@ivandt/importer-vue';
 const router = useRouter();
 const config = useRuntimeConfig();
 
-const { data: session, pending: isLoading } = await useFetch('/api/sessions', {
-  method: 'POST'
-});
+const { data: session, pending: isLoading } = await useFetch('/api/sessions');
 
 const schema = computed<IvtSchema>(() => ({
   id: '',

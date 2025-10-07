@@ -13,7 +13,7 @@ export function useIvandtSession() {
   useEffect(() => {
     (async () => {
       setIsLoading(true)
-      const res = await fetch("/api/sessions", { method: "POST" });
+      const res = await fetch("/api/sessions", { method: "GET" });
       if (!res.ok) throw new Error("Failed to create session");
       const data: SessionResponse = await res.json();
       setSession(data);
