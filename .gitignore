@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/**/node_modules
+**/node_modules
 /.pnp
 .idea
 .pnp.*
@@ -12,14 +12,20 @@
 !.yarn/versions
 
 # testing
-/coverage
+**/coverage
 
 # next.js
-/nextjs/.next/
-/nextjs/out/
+**/.next/
+**/out/
+
+# nuxt
+**/.nuxt/
+**/.output/
+**/.data/
 
 # production
-/nextjs/build
+**/build
+**/dist
 
 # misc
 .DS_Store
@@ -31,11 +37,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-/nextjs/.env.local
+# env files
+**/.env.local
+**/.env*.local
 
 # typescript
-/nextjs/*.tsbuildinfo
-/nextjs/next-env.d.ts
+**/*.tsbuildinfo
+**/next-env.d.ts
 
-/nextjs/certificates
+# certificates
+**/certificates

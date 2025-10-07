@@ -1,0 +1,57 @@
+<template>
+  <div class="container">
+    <div class="content">
+      <h1 class="title">✓</h1>
+      <h2 class="heading">Thanks for using Ivandt</h2>
+      <p class="message">Your data has been successfully imported.</p>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background);
+}
+
+.content {
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  font-size: 80px;
+  color: var(--foreground);
+  margin: 0 0 24px 0;
+  font-weight: 300;
+}
+
+.heading {
+  font-size: 32px;
+  color: var(--foreground);
+  margin: 0 0 16px 0;
+  font-weight: 500;
+}
+
+.message {
+  font-size: 18px;
+  color: var(--foreground);
+  opacity: 0.7;
+  margin: 0;
+}
+</style>
