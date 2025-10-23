@@ -12,7 +12,7 @@ const secretKey = process.env.IVANDT_SECRET_KEY;
 
 app.get('/api/sessions', async (req, res) => {
   try {
-    const response = await fetch('https://api.ivandt.com/api/sessions', {
+    const response = await fetch('https://api.ivandt.com/v1/sessions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

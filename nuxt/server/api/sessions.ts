@@ -3,7 +3,7 @@ const secretKey = process.env.IVANDT_SECRET_KEY;
 export default defineEventHandler(async (event) => {
   let response;
   try {
-    response = await fetch("https://api.ivandt.com/api/sessions", {
+    response = await fetch("https://api.ivandt.com/v1/sessions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

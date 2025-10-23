@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ivandt/importer": "^1.9.7",
-    "@ivandt/importer-react": "^0.1.5",
+    "@ivandt/importer": "^1.12.0",
+    "@ivandt/importer-react": "^2.0.4",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0"

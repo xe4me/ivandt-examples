@@ -14,9 +14,9 @@
 /* Light Theme */
 :root[data-theme='light'] ivt-importer,
 :root:not([data-theme]) ivt-importer {
-  --ivt-color-base-100: oklch(98% 0.002 247.839);
-  --ivt-color-base-200: oklch(96% 0.003 264.542);
-  --ivt-color-base-300: oklch(92% 0.006 264.531);
+  --ivt-color-base: oklch(98% 0.002 247.839);
+
+
 
   --ivt-color-base-content: oklch(21% 0.034 264.665);
   --ivt-color-primary: oklch(0.539 0.166 137.744);
@@ -59,9 +59,9 @@
 
 /* Dark Theme */
 :root[data-theme='dark'] ivt-importer {
-  --ivt-color-base-100: oklch(18% 0.008 264.665);
-  --ivt-color-base-200: oklch(22% 0.012 264.665);
-  --ivt-color-base-300: oklch(28% 0.016 264.665);
+  --ivt-color-base: oklch(18% 0.008 264.665);
+
+
 
   --ivt-color-base-content: oklch(92% 0.006 264.531);
   --ivt-color-primary: oklch(0.639 0.186 137.744);

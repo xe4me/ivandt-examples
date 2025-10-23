@@ -6,7 +6,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 export async function GET(req: NextApiRequest, res: NextApiResponse) {
   let response
   try {
-    response = await fetch("https://api.ivandt.com/api/sessions", {
+    response = await fetch("https://api.ivandt.com/v1/sessions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
